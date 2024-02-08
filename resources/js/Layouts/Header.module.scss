@@ -1,0 +1,44 @@
+@import '../Style/Variaveis.scss';
+
+.header{
+	background-color: #232536;
+	display: flex;
+	justify-content: space-between;
+	width: 100vw;
+	height: 5rem;
+
+	> div{
+		display: flex;
+		align-items: center;
+		padding: 0 5rem;
+		gap: 1.5rem;
+
+		span{
+			color: #fff;
+			font-size: 1.375rem;
+			font-weight: 700;
+			letter-spacing: 0.125rem;
+		}
+
+		a {
+			color: #fff;
+			text-decoration: none;
+			font-size: 1rem;
+			font-weight: 400;
+		}
+
+		button{
+			margin-left: 0.75rem;
+			width: 11.1875rem;
+			height: 3.5rem;
+			background-color: white;
+			color: #232536;
+			border: none;
+			font-size: 1.125rem;
+			font-weight: 700;
+			line-height: 1.5rem;
+			cursor: pointer;
+			font-family: $Sen;
+		}
+	}
+}
